@@ -1283,5 +1283,5 @@ async def on_message(msg):
 			embed.add_field(name='10시간', value='커츠', inline=False)
 			await client.get_channel(channel).send(embed=embed, tts=False)
 
-access_token = os.environ['BOT_tokken']
+access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
